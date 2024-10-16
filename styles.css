@@ -190,6 +190,8 @@ body::before {
 }
 
 .join-arrow-1 {
+    -moz-transform: scaleX(-1); /* Firefox */
+    -webkit-transform: scaleX(-1); /* Safari/Chrome */
     transform: scaleX(-1);
 }
 .join-arrow img {
